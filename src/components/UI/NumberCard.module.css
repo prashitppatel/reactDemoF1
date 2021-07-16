@@ -1,0 +1,39 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 10%;
+  background-color: black;
+  border-radius: 12px;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+
+.label h1 {
+  color: rgb(255,30,2);
+  font-size: xx-large;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+}
+
+.number h1 {
+  color: rgb(255,30,2);
+  font-size: 60px;
+  font-weight: bold;
+}

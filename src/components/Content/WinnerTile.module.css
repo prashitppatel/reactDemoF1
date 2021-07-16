@@ -1,0 +1,71 @@
+.winnerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30%;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 90%;
+  background-color: #3f3f3f;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.winnerRow h2 {
+  width: 5%;
+  margin: 10px;
+  text-align: center;
+}
+
+.driver {
+  height: 80%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.driver h1 {
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+  font-weight: 700;
+}
+
+.constructor {
+  margin-left: 5%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(210, 209, 209);
+}
+
+.timingContainer {
+ display: flex;
+ width: 15%;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.timingTile {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  padding: 5px 10px 5px 10px;
+  /* width: 4rem; */
+  border-radius: 15px;
+  margin-left: 1rem;
+  margin-right: 3px;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+}

@@ -1,0 +1,116 @@
+.raceTileContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.detailsContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+}
+
+fieldset {
+  border: 6px solid transparent; 
+  border-radius: 10px;
+  border-top-color: #3f3f3f; 
+  border-right-color: #3f3f3f;
+  padding: 5px;
+  height: 100%;
+  width: 15%;
+}
+
+legend {
+  font-size: larger; 
+  font-weight: bolder;
+  margin-right: auto;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  word-wrap: normal;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  margin-top: auto;
+}
+
+.track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 90%;
+  border-width: 50%;
+  word-wrap: normal;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  border: 1px solid transparent; 
+  border-top-color: rgb(255,30,2);
+}
+.resultsContainer {
+  height: 98%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  border: 6px solid transparent;
+  border-left-color: #3f3f3f;
+  border-bottom-color: #3f3f3f;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.resultsContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 95%;
+  width: 98%;
+  margin: 1px 0 0 5px;
+  border-radius: 10px;
+}
+
+.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 20%;
+  padding: 2px;
+}
+
+.flag img{
+  object-fit: cover;
+  width: 100%;
+  height: 60%;
+}
+
+.winnersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90%;
+  width: 90%;
+}

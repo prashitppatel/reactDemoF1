@@ -1,0 +1,96 @@
+.content {
+  background-color: rgb(24, 18, 20);
+  margin: 1rem 1rem 0 2rem;
+  height: 53rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.labelContainer {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255,30,2);
+  width: 100%;
+  height: 3rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.labelContainer h1 {
+  padding-left: 20px;
+  color: white;
+}
+
+.labelContainer h3 {
+  padding-right: 20px;
+  color: white;
+}
+
+.winnerContainer {
+  /* position: fixed; */
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  width: auto;
+  height: 3rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.winnerContainer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border: 6px solid transparent;
+  border-top-color: rgb(255,30,2);
+  border-right-color: rgb(255,30,2);
+  border-radius: 6px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-right: auto;
+}
+
+.winnerContainer h1 {
+  margin-left: 10px;
+  color: white;
+  text-align: left;
+  font-weight: 700;
+  font-size: xx-large; 
+}
+
+.winnerContainer h2 {
+  margin-left: 33.5%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: white;
+  text-align: left;
+  border: 6px solid transparent;
+  border-left-color: rgb(255,30,2);
+  border-bottom-color: rgb(255,30,2);
+  border-radius: 6px;
+}
+
+.winnerContainer h3 {
+  margin-top: 30px;
+  padding-left: 20px;
+  color: white;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.winnerContainer h4 {
+  background-color: white;
+  margin: 2rem;
+  height: 3px;
+  width: 15px;
+}

@@ -1,0 +1,13 @@
+.search {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.search input {
+  color: rgb(250, 30, 2);
+  font-weight: bold;
+  font-size: large;
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+}
